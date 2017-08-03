@@ -2,10 +2,10 @@
   "name": "typescript_demo",
   "version": "1.0.0",
   "description": "A demonstration of how to use typescript with nodejs",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node ./dist/index.js",
-    "test": "mocha ./dist/**/*spec.js"
+    "start": "ts-node ./src/index.ts",
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register ./src/**/*spec.ts"
   },
   "author": "",
   "license": "ISC",

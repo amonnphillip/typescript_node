@@ -13,12 +13,12 @@ npm install
 To run the demo
 
 ```sh
-npm run-script run
+npm start
 ```
 
 To run the tests
 
 ```sh
-npm run-script test
+npm test
 ```
 
